@@ -1,0 +1,56 @@
+/* Размер экрана 767px и более */
+.container767 > div {
+  display: inline-block;
+}
+
+.container767 > .btnContainer {
+  position: initial;
+  margin-top: 9px;
+  margin-left: 76px;
+}
+
+.container767 > .searchForm {
+  top: -30px;
+}
+
+/* Размер экрана от 320px до 375px */
+.app320 > .btnContainer {
+  position: fixed;
+  z-index: 5;
+}
+
+.app320 > .searchForm,
+.app375 > .searchForm {
+  margin-top: 16px;
+}
+.app320 > .searchForm > input[type="text"] {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.app320 .searchForm a input {
+  left: 0px;
+  margin-left: 80%;
+}
+
+.app320 > .offeredList > .cardsContainer > .Card.offeredCard {
+  width: 64px;
+}
+
+.app320 > .offeredList {
+  max-height: 200px;
+  margin-left: 20px;
+  overflow-y: scroll;
+}
+
+.app320 > .offeredList > .cardsContainer {
+  margin-left: 0px;
+}
+
+.app320 > .offeredList > div {
+  margin-left: 0px;
+}
+
+.app320 > .offeredList::-webkit-scrollbar {
+  display: none;
+}

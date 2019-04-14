@@ -1,0 +1,43 @@
+.btnContainer {
+  position: absolute;
+  width: 276px;
+  left: calc(50% - 138px);
+  bottom: 11px;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+  background-image: no-repeat;
+}
+
+.btn.dc {
+  width: 120px;
+  height: 75px;
+}
+
+.btn.marvel {
+  position: absolute;
+  width: 111px;
+  height: 50px;
+  margin-left: 45px;
+  margin-top: 10px;
+}
+
+.dcInActive {
+  background-image: url("../../images/dc-logo-inactive.png");
+}
+
+.marvelInActive {
+  background-image: url("../../images/marvel-logo-inactive.png");
+}
+
+.dcActive > button {
+  background-image: url("../../images/dc-logo-active.png");
+}
+
+.marvelActive > button {
+  background-image: url("../../images/marvel-logo-active.png");
+}

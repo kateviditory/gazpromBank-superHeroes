@@ -1,0 +1,12 @@
+.offeredList {
+  margin-top: 28px;
+}
+
+.offeredList > div {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.offeredList > div:first-child {
+  margin-left: 20px;
+}

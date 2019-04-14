@@ -1,0 +1,15 @@
+.remove {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: -6px;
+  left: 56px;
+  opacity: 0;
+  -webkit-transition: opacity 150ms;
+  cursor: pointer;
+}
+.Card:hover > .remove,
+.Card:focus > .remove {
+  opacity: 1;
+  background-image: url("../../images/icon-x.svg");
+}

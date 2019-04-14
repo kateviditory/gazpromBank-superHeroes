@@ -1,0 +1,31 @@
+.teamList {
+  width: 100vw;
+  height: 168px;
+  background-color: #2b2d35;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-margin-right: 20px;
+  transition: transform 900ms ease;
+}
+
+.teamList > div {
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 40px;
+  vertical-align: top;
+}
+
+.teamList > div:first-child {
+  margin-left: 20px;
+}
+
+.teamList::-webkit-scrollbar {
+  display: none;
+}
+
+.noSelectedCards {
+  margin-top: 76px;
+  color: #4b4e5c;
+  font-size: 18px;
+  text-align: center;
+}

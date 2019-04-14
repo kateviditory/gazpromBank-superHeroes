@@ -1,0 +1,55 @@
+.searchForm {
+  position: relative;
+  margin-left: 20px;
+  margin-top: 16px;
+}
+
+input[type="text"] {
+  width: 321px;
+  height: 56px;
+  padding-left: 14px;
+  vertical-align: middle; /* Выравнивание по середине */
+  background-color: #4b4e5c;
+  border-radius: 8px;
+  font-size: 16px;
+  color: white;
+  border: none; /* Убираем рамку */
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+}
+
+::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+::-moz-placeholder {
+  color: #ffffff; /* Firefox 19+ */
+} 
+
+:-moz-placeholder {
+  color: #ffffff; /* Firefox 18- */
+} 
+
+:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+input[type="submit"] {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 296px;
+  top: 16px;
+  background-color: #4b4e5c;
+  background-image: url("../../images/icon-loupe.svg");
+  border: none; /* Убираем рамку */
+  outline: none; /* Убираем свечение в Chrome и Safari */
+  -webkit-appearance: none; /* Убираем рамку в Chrome и Safari */
+}
+
+.noFoundCards {
+  margin-top: 156px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
